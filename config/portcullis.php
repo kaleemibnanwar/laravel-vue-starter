@@ -7,8 +7,7 @@ return [
      */
 
     'permissions' => [
-        'subscription' => [
-        ],
+        'subscription' => [],
     ],
 
     'roles' => ['admin', 'super-admin', 'team-admin'],
