@@ -1,10 +1,11 @@
+# Project Setup Documentation
 
-Clone Project:
-git clone git@github.com:kaleemibnanwar/talenthub.git
+### Clone Project:
+> git clone git@github.com:kaleemibnanwar/talenthub.git
 
-Setup Configurations in ENV
+### Setup Configurations in ENV
 
-> Update database information
+#### Update database information
 """
 DBCONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -14,33 +15,33 @@ DB_USERNAME=root
 DB_PASSWORD=
 """
 
-Install Laravel Packages
+### Install Laravel Packages
 
 > composer install
 
 composer update  #(only if composer install doesn't work) 
 
-Migrate Database
+### Migrate Database
 
 > php artisan migrate:fresh --seed
 
-Install Node Packages
+### Install Node Packages
 
-npm i
+> npm i
 
-Run build
+### Run build
 
 > npm run build
 
-Generate Secret Key 
+### Generate Secret Key 
  
- php artisan key:generate
+ > php artisan key:generate
 
-Start Laravel Project
+### Start Laravel Project
 
 > php artisan serve 
 
 
 
-For Development on Frontend Side use Watch script instead of Build.
-_> npm run watch 
+### For Development on Frontend Side use Watch script instead of Build.
+> npm run watch 
