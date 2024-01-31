@@ -45,3 +45,12 @@ composer update  #(only if composer install doesn't work)
 
 ### For Development on Frontend Side use Watch script instead of Build.
 > npm run watch 
+
+
+
+
+## Login/Default Testing SuperUser
+##### login
+> superadmin@admins.com
+##### password
+> 12345678
